@@ -16,21 +16,12 @@ html {
   box-sizing: border-box;
 }
 
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-  /* margin: 0;
-  padding: 0; */
-}
-
 body {
   font-family: 'Roboto', sans-serif;
   font-size: var(--font-size-main);
   line-height: var(--line-height-main);
   color: var(--color-text);
   background: var(--color-primary-white);
-  /* margin: 0 auto; */
 }
 
 .container {
@@ -88,7 +79,6 @@ body {
   font-size: var(--font-size-main);
   letter-spacing: 0.04em;
   border-radius: 4px;
-  /* text-align: center; */
   border: 1px solid transparent;
 }
 
